@@ -26,14 +26,14 @@ int main() {
     QuickSort myQuick;
 
     if (myBinary.search(myVector, 1)){
-        cout << "true";
+        cout << "true ";
     }
     else {
-        cout << false;
+        cout << "false ";
     }
     vector <int> sortedVector = myBubble.sort(myVector);
 
-    for (int i = 0; i < sortedVector.size()-1; i++){
+    for (int i = 0; i < sortedVector.size(); i++){
         cout << sortedVector[i] << " ";
     }
     
